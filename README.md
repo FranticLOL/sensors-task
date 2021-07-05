@@ -7,7 +7,9 @@ Linux & MacOS: ./mvnw spring-boot:run
 
 Windows: ./mvnw.cmd spring-boot:run
 
-Для запуска тестов необходимо использовать одну следующих команд в терминале:
+Для запуска тестов необходимо: 
+1. Сгенерировать данные с помощью скрипта generate_sensor_data.py, полученный файл добавить в папку test/resources
+2. Использовать одну следующих команд в терминале:
 
 Linux & MacOS: ./mvnw test
 
